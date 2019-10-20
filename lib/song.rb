@@ -34,6 +34,7 @@ class Song
   end
   
   def find_or_creat_by_name
+    search = 
     if 
   end
   
