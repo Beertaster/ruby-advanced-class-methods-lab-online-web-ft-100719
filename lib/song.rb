@@ -35,7 +35,10 @@ class Song
   
   def find_or_creat_by_name
     search = self.find_by_name(song_name)
-    if search ==
+    if search == true 
+      search
+    else
+      
   end
   
   
