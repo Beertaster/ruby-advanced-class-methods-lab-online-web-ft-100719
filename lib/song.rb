@@ -51,7 +51,8 @@ class Song
     arr = filename.split(" - ")
     arr[1] = arr[1].chomp(".mp3")
     song = self.new
-    song.name = 
+    song.name = arr[1]
+    song.artist = 
     
   end
   
