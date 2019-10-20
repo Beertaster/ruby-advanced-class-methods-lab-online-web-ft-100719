@@ -33,6 +33,12 @@ class Song
     result
   end
   
+  def find_or_creat_by_name
+    if 
+  end
+  
+  
+  
   def alphabetical
     arr_sort = self.all.sort_by {|song| song.name}
     arr_sort
