@@ -65,7 +65,6 @@ class Song
     song.name = item.name
     song.artist_name = item.artist_name
     song
+  end
   
-    
-
 end
