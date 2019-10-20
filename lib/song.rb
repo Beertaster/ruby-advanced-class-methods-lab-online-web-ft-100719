@@ -53,6 +53,7 @@ class Song
     song = self.new
     song.name = arr[1]
     song.artist = arr[0]
+    song
     
   end
   
