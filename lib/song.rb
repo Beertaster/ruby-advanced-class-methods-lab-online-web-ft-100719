@@ -60,10 +60,10 @@ class Song
   
   def self.create_from_filename(file)
     
-    
+    item = self.new_from_filename(file)
     song = self.create
-    song.name = result.name
-    song.artist_name = result.artist_name
+    song.name = item.name
+    song.artist_name = item.artist_name
     song
   
     
