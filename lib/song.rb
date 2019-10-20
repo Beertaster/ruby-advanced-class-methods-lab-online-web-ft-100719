@@ -38,7 +38,8 @@ class Song
     if search == true 
       search
     else
-      
+      self.create_by_name(song_name)
+    end
   end
   
   
