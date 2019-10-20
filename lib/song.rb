@@ -47,7 +47,9 @@ class Song
     arr_sort
   end
   
-  def self.new_from_file
+  def self.new_from_filename(file)
+    
+  end
   
     
 
