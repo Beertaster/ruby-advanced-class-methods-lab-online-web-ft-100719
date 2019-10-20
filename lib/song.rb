@@ -32,6 +32,10 @@ class Song
     result = self.all.detect {|song| song.name == song_name}
     result
   end
+  
+  def alphabetical
+    
+  end
     
 
 end
